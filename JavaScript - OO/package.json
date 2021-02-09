@@ -1,0 +1,12 @@
+{
+  "name": "jsoo",
+  "version": "1.0.0",
+  "description": "Alura JavaScript - OO",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anderson André",
+  "license": "ISC",
+  "type": "module"
+}
