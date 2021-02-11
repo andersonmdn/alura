@@ -1,5 +1,6 @@
-import {Cliente} from "./Cliente.js";
-import {ContaCorrente} from "./ContaCorrente.js";
+import { Cliente } from "./Cliente.js";
+import { ContaCorrente } from "./ContaCorrente.js";
+import { ContaPoupanca } from "./ContaPoupanca.js";
 
 const clienteAnderson = new Cliente("Anderson", 15807879);
 const clienteGabriela = new Cliente("Gabriela", 45464565);
@@ -15,3 +16,6 @@ contaCorrenteGabriela.transferir(250, contaCorrenteAnderson);
 console.log(contaCorrenteAnderson);
 console.log(contaCorrenteGabriela);
 console.log(ContaCorrente.numeroContas);
+console.log("=============================================================")
+const contaPoupancaGabriela = new ContaPoupanca(50, clienteGabriela, 1001);
+console.log(contaPoupancaGabriela);
