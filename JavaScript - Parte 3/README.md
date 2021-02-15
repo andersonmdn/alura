@@ -13,6 +13,10 @@
 - Classe Abstrata
 - Erros (Throw)
 - Métodos Abstratos
+- Polimosfismo
+- Interface
+- Verificar Propriedade e Tipos
+- Ducky Type
 
 
 
