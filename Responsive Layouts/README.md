@@ -1,14 +1,19 @@
 # Responsive Layouts
 Projeto de site responsivo Apeperia, desenvolvido durante o curso da alura sobre "Layouts Responsivos".
 
+## Mobile
 <h1 align="center">
-  <br>
   <img src="_readme_/Mobile.gif" alt="Apeperia Mobile" width="200">
-  <br>
+</h1>
+
+## Tablet
+<h1 align="center">
   <img src="_readme_/Tablet.gif" alt="Apeperia Tablet" width="400">
-  <br>
+</h1>
+
+## Desktop
+<h1 align="center">
   <img src="_readme_/Web.gif" alt="Apeperia Tablet" width="800">
-  <br><br>
 </h1>
 
 ## Curso/Course
