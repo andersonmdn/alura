@@ -1,10 +1,16 @@
 # Responsive Layouts
-> Projeto site responsivo Apeperia
+> Projeto de site responsivo Apeperia, desenvolvido durante o curso da alura sobre "Layouts Responsivos".
 
-[![NPM Version][npm-image]][npm-url]
-## Cursos/Course
-
+## Curso/Course
 [Layouts Responsivos: Trabalhando com layouts mobile | Alura](https://cursos.alura.com.br/course/mobile-first-layouts-responsivos)
+
+## Linguagens e Ferramentas/ Languages and Tools
+![Badge](https://img.shields.io/badge/-JavaScript-eed718?style=for-the-badge&logo=javascript&logoColor=ffffff)
+![Badge](https://img.shields.io/badge/-HTML-E34F26?style=for-the-badge&logo=html5&logoColor=ffffff)
+![Badge](https://img.shields.io/badge/-CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=ffffff)
+![Badge](https://img.shields.io/badge/-VSCode-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=ffffff)
+![Badge](https://img.shields.io/badge/-GIT-F1502F?style=for-the-badge&logo=git&logoColor=ffffff)
+![Badge](https://img.shields.io/badge/-GITHUB-000000?style=for-the-badge&logo=github&logoColor=ffffff)
 
 ## Aprendido durante o Curso / Learned during the Course
 - Unidades de Medida:
@@ -32,9 +38,11 @@
 	- Maior capacidade de banda e processamento
 	- O produto é otimizado para desktop (ex: Google Docs)
 - Variaveis CSS
+- Media Queries
+	- screan: Para dispositivos que tenham tela
+	- print: Para impressão
 
 ## Recomendações de Cursos
 1. Saber mais sobre SVG: https://cursos.alura.com.br/course/svg-css-animacao
-
-[npm-image]: https://img.shields.io/npm/v/datadog-metrics.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/datadog-metrics
+2. Saber mais sobre Dispositivos Móveis: https://cursos.alura.com.br/course/web-design-responsivo
+3. Saber mais sobre Breakpoints e valores genéricos para dispositivos: https://css-tricks.com/snippets/css/media-queries-for-standard-devices/
