@@ -2,19 +2,19 @@
 Projeto de site responsivo Apeperia, desenvolvido durante o curso da alura sobre "Layouts Responsivos".
 
 ## Mobile
-<h1 align="center">
+<div align="center">
   <img src="_readme_/Mobile.gif" alt="Apeperia Mobile" width="200">
-</h1>
+</div>
 
 ## Tablet
-<h1 align="center">
+<div align="center">
   <img src="_readme_/Tablet.gif" alt="Apeperia Tablet" width="400">
-</h1>
+</div>
 
 ## Desktop
-<h1 align="center">
+<div align="center">
   <img src="_readme_/Web.gif" alt="Apeperia Tablet" width="800">
-</h1>
+</div>
 
 ## Curso/Course
 [Layouts Responsivos: Trabalhando com layouts mobile | Alura](https://cursos.alura.com.br/course/mobile-first-layouts-responsivos)
