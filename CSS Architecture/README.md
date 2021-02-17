@@ -1,5 +1,7 @@
 # CSS Architecture
-Curso de arquitetura de CSS da Alura.
+Projeto de site responsivo Fruta&Fruto, desenvolvido durante o curso da Alura sobre "Arquitetura CSS".
+
+Para o desenvolvimento do projeto e organização dos arquivos foram utilizadas as metodologias Atomic Design e BEM(Block Element Modifier).
 
 ## Mobile
 <div align="center">
@@ -17,11 +19,6 @@ Curso de arquitetura de CSS da Alura.
   </br>
   </br>
 </div>
-
-# Responsive Layouts
-Projeto de site responsivo Fruta&Fruto, desenvolvido durante o curso da Alura sobre "Arquitetura CSS".
-
-Para o desenvolvimento do projeto e organização dos arquivos foram utilizadas as metodologias Atomic Design e BEM(Block Element Modifier).
 
 ## Curso/Course
 [Arquitetura CSS: Descomplicando os problemas | Alura](https://cursos.alura.com.br/course/arquitetura-css)
