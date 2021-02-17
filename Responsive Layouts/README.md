@@ -20,7 +20,6 @@ Projeto de site responsivo Apeperia, desenvolvido durante o curso da alura sobre
 [Layouts Responsivos: Trabalhando com layouts mobile | Alura](https://cursos.alura.com.br/course/mobile-first-layouts-responsivos)
 
 ## Linguagens e Ferramentas/ Languages and Tools
-![Badge](https://img.shields.io/badge/-JavaScript-eed718?style=for-the-badge&logo=javascript&logoColor=ffffff)
 ![Badge](https://img.shields.io/badge/-HTML-E34F26?style=for-the-badge&logo=html5&logoColor=ffffff)
 ![Badge](https://img.shields.io/badge/-CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=ffffff)
 ![Badge](https://img.shields.io/badge/-VSCode-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=ffffff)

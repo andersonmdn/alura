@@ -1,0 +1,21 @@
+.quem-somos {
+	text-align: center;
+}
+
+@media screen and (min-width: 0) {
+	.quem-somos {
+		padding: 1rem;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.quem-somos {
+		padding: 2.5rem;
+	}
+}
+
+@media screen and (min-width: 992px) {
+	.quem-somos {
+		padding: 5rem;
+	}
+}
