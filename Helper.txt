@@ -1,3 +1,4 @@
+# Badge
 JS
 ![Badge](https://img.shields.io/badge/-JavaScript-eed718?style=for-the-badge&logo=javascript&logoColor=ffffff)
 HTML5
@@ -10,3 +11,5 @@ GIT
 ![Badge](https://img.shields.io/badge/-GIT-F1502F?style=for-the-badge&logo=git&logoColor=ffffff)
 GITHUB
 ![Badge](https://img.shields.io/badge/-GITHUB-000000?style=for-the-badge&logo=github&logoColor=ffffff)
+
+# Emojis

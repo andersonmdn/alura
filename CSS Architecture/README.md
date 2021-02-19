@@ -58,3 +58,8 @@ Para o desenvolvimento do projeto e organização dos arquivos foram utilizadas 
 			...
 		}
 		```
+
+## Recomendações de Cursos
+1. [Saber mais sobre BEM] (https://en.bem.info/methodology/)
+2. [Saber mais sobre Organizaão CSS] (https://blog.caelum.com.br/comecando-a-organizar-seu-css/)
+3. [Como lidar com os limites de resolução em sites responsivos] (https://www.alura.com.br/artigos/como-lidar-com-os-limites-de-resolucao-em-sites-responsivos)
