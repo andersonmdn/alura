@@ -1,0 +1,32 @@
+.to-do__form {
+	display: flex;
+	justify-content: center;
+	background-color: transparent;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.to-do__form input,
+.to-do__form button {
+	border-radius: 0;
+	padding: 0.50rem 0;
+	font-size: 0.75rem;
+}
+
+.to-do__form input {
+	outline: none;
+	border-color: rgba(255, 255, 255, 0.1);
+	background-color: #303339;
+	width: 100%;
+	padding-left: 1rem;
+	color: #ffffff;
+}
+ 
+.to-do__form button {
+	background: #677BC4;
+}
+ 
+.to-do__form button:hover {
+	background: #5464a0;
+}

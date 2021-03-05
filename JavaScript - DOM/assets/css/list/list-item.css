@@ -1,0 +1,17 @@
+.list__item {
+	background-color: #41454e;
+	color: #ffffff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 0.5rem;
+	padding: 0.5rem 1rem;
+}
+
+.list__item__buttons {
+
+}
+
+.list__item--done {
+	text-decoration: line-through;
+ }
