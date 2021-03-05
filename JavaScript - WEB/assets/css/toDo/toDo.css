@@ -1,0 +1,8 @@
+.to-do {
+	background-color: #36393F;
+	font-family: "Space Mono", monospace;
+	padding: 1rem;
+	min-width: 50vw;
+	min-height: 40vh;
+	border-radius: 5px;
+}

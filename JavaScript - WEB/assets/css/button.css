@@ -1,0 +1,24 @@
+.button {
+	border: 1px;
+	color: #ffffff;
+	text-transform: capitalize;
+	cursor: pointer;
+	padding: 0.5rem;
+	min-width: 100px;
+}
+
+.button + .button {
+	margin-left: 5px;
+}
+
+.button--done {
+	background: #677BC4;
+}
+
+.button--check {
+	background: #6793c4;
+}
+
+.button--delete {
+	background: #c46767;
+}
