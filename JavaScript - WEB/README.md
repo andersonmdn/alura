@@ -15,7 +15,13 @@
 ![Badge](https://img.shields.io/badge/-GITHUB-000000?style=for-the-badge&logo=github&logoColor=ffffff)
 
 ## Aprendido durante o Curso / Learned during the Course
+- Utilizar componente de calendário
+- Manipular datas
+- Desestruturar objetos em JavaScript
 
+- Salvar dados no navegador utilizando SessionStorage
+- Armazenar dados sem encerrar a sessão com e LocalStorage
+- Transformar objetos em string utilizando JSON.stringify()
 
 ## Recomendações
 https://cursos.alura.com.br/destructuring-em-js-c308
