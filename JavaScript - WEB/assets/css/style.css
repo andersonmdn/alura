@@ -1,0 +1,167 @@
+:root {
+	--white: #afafaf;
+	--background-1: #292a2b;
+	--background-2: #1a1a1a;
+	--background-3: #242424;
+}
+ 
+
+body {
+	margin: 0;
+}
+
+.app {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100vw;
+	height: 100vh;
+}
+
+.todo-list {
+	background-color: var(--background-1);
+	font-family: 'Roboto';
+	width: 50%;
+	/* max-width: 600px; */
+	min-height: 500px;
+	border-radius: 0.25rem;
+}
+
+.title {
+	font-size: 1.5rem;
+	padding: 0rem 0.8rem;
+	font-family: 'Roboto';
+	color: #fff;
+}
+
+.form {
+	padding: 1rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.form ::placeholder {
+	color: inherit;
+	opacity: 1;
+}
+
+.form-input, .form-button {
+	border-radius: 0;
+	font-size: 0.75rem;
+}
+
+.form-input {
+	background: var(--background-3);
+	border-radius: 0.2px;
+	border: 1px solid var(--background-2);
+	color: var(--white);
+	outline: none;
+	padding: 0px 5px;
+}
+
+.form-input-anotacao {
+	min-height: 28px;
+	width: 40%;
+}
+
+.form-input-datetime {
+	min-height: 30px;
+	width: 30%;
+}
+
+.form-button {
+	min-height: 30px;
+	border: 1px;
+	color: var(--white);
+  	background: var(--background-3);
+	cursor: pointer;
+	margin-left: 0.25rem;
+	width: 20%;
+}
+
+.form-button:hover {
+	background: #161616;
+}
+
+.list {
+	padding: 0;
+	list-style: none;
+	width: 100%;
+}
+
+.task {
+  background-color: var(--background-3);
+  color: var(--white);
+  display: flex;
+  justify-content: space-between;
+  margin: 0 1rem;
+  padding: 1rem 1.5rem;
+}
+
+.task p {
+	max-width: 55%;
+}
+
+.button-group {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 40%;
+}
+
+.check-button, .delete-button {
+	border-radius: 2px;
+	border: none;
+	box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+	color: #fff;
+	cursor: pointer;
+	min-height: 24px;
+	outline: none;
+	text-transform: capitalize;
+	width: 100%;
+	max-width: 100px;
+}
+
+.check-button {
+	background: #60ad5e;
+	margin-right: 1rem;
+}
+
+.check-button:hover {
+	background: #2e7d32;
+}
+
+.delete-button {
+	background: #d32f2f;
+}
+
+.task.done .check-button {
+	background: #60ad5e;
+	color: #F6F1D1;
+}
+
+.check-icon {
+	display: block;
+	padding: 1px;
+	width: 10px;
+	height: 10px;
+	background-color: transparent;
+	border-radius: 50%;
+}
+
+.content {
+	margin: 0;
+}
+
+.content-data { 
+	color: var(--white);
+	display: flex;
+	justify-content: flex-start;
+	margin-bottom: 0.5rem;
+	padding: 1rem 1.5rem;
+}
+
+.task.done .content {
+	text-decoration: line-through;
+}

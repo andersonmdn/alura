@@ -1,48 +1,60 @@
+import { carregaTarefa } from './carregaTarefa.js'
 import BotaoConclui from './concluiTarefa.js'
 import BotaoDeleta from './deletaTarefa.js'
+ 
 
 export const handleNovoItem = (evento) => {
-	evento.preventDefault()
-	const tarefas = JSON.parse(localStorage.getItem('tarefas')) || []
+    evento.preventDefault()
+    const tarefas = JSON.parse(localStorage.getItem('tarefas'))||[]
+    const input = document.querySelector('[data-form-input]')
+    const valor = input.value
 
-	const lista = document.querySelector('[data-list]')
-	const input = document.querySelector('[data-form-input]')
-	const valor = input.value
+    const calendario = document.querySelector('[data-form-date]')
+    const data = moment(calendario.value)
 
-	const calendario = document.querySelector('[data-form-datetime]')
-	const data = moment(calendario.value)
+	 if (data.isValid()) {
+		const horario = data.format('HH:mm')
+		const dataFormatada = data.format('DD/MM/YYYY')
+		const concluida = false
 
-	if (!valor) {
-		return 
-	}
+		const dados = { 
+			valor,
+			dataFormatada,
+			horario,
+			concluida
+		}
 
-	const dados = {
-		text: valor,
-		data
-	}
+		const tarefasAtualizadas = [...tarefas, dados]
 
-	lista.appendChild(Tarefa(dados))
+		localStorage.setItem('tarefas', JSON.stringify(tarefasAtualizadas))
 
-	const tarefasAtualizadas = [...tarefas, dados]
+		input.value = " "
 
-	localStorage.setItem("tarefas", JSON.stringify(tarefasAtualizadas))
-
-	input.value = ""
+		carregaTarefa()
+	 }
 }
 
-export const Tarefa = (dados) => {
-	const tarefa = document.createElement('li')
-	const buttons = document.createElement('div')
-	
-	tarefa.classList.add('list__item')
-	buttons.classList.add('list__item__buttons')
-	const conteudo = `<p class="content">${dados.data.format('DD/MM/YYYY')} | ${dados.text}</p>`
-	
-	tarefa.innerHTML = conteudo
-	
-	buttons.appendChild(BotaoConclui())
-	buttons.appendChild(BotaoDeleta())
-	tarefa.appendChild(buttons)
+export const Tarefa = ({ valor, horario, concluida }, id) => {
 
-	return tarefa;
+	const tarefa = document.createElement('li')
+	const grupoBotoes = document.createElement('div')
+    
+    const conteudo = `<p class="content">${horario} | ${valor}</p>`
+    if( concluida ) {
+       tarefa.classList.add('done')
+    }
+
+    tarefa.classList.add('task')
+    
+    tarefa.innerHTML = conteudo
+	 grupoBotoes.classList.add('button-group')
+	 grupoBotoes.appendChild(BotaoConclui(carregaTarefa, id))
+    grupoBotoes.appendChild(BotaoDeleta(carregaTarefa, id))
+	 tarefa.appendChild(grupoBotoes)
+	 
+
+    
+   
+    return tarefa
+
 }
