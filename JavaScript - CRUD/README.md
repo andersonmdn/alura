@@ -23,15 +23,15 @@
 ## Recomendações
 
 ## Rodando o Projeto
-1. Rodar o Json Server utilizando o **Yarn** ou **NPM**:
+1. Rodar o Json Server utilizando o **Yarn** ou **NPX**:
 
 	**Yarn**
 	```bat
 	yarn json-server --watch db.json
 	```
-	**NPM**
+	**NPX**
 	```bat
-	npm json-server --watch db.json
+	npx json-server --watch db.json
 	```
 
 2. Rodar Servidor utilizando o arquivo **lista_cliente.html**
