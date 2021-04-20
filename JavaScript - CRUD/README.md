@@ -4,7 +4,7 @@
 </div> -->
 
 ## Curso/Course
-[JS na web: CRUD com JavaScript assÃ­ncrono | Alura](https://cursos.alura.com.br/course/javascript-crud-assincrono)
+[JS na web: CRUD com JavaScript assí­ncrono | Alura](https://cursos.alura.com.br/course/javascript-crud-assincrono)
 
 ## Linguagens e Ferramentas/ Languages and Tools
 ![Badge](https://img.shields.io/badge/-HTML-E34F26?style=for-the-badge&logo=html5&logoColor=ffffff)
@@ -37,7 +37,7 @@
 - Utilizar **async**/**await** para indicar funções assíncronas.
 - Tratar erros com **try**/**catch**
 
-## RecomendaÃ§Ãµes
+## Recomendações
 [Para saber mais: Promise.All - ALURA](https://cursos.alura.com.br/course/javascript-crud-assincrono/task/86449)
 [Funcionamento do Ambiente JavaScript](http://latentflip.com/loupe/?code=JC5vbignYnV0dG9uJywgJ2NsaWNrJywgZnVuY3Rpb24gb25DbGljaygpIHsKICAgIHNldFRpbWVvdXQoZnVuY3Rpb24gdGltZXIoKSB7CiAgICAgICAgY29uc29sZS5sb2coJ1lvdSBjbGlja2VkIHRoZSBidXR0b24hJyk7ICAgIAogICAgfSwgMjAwMCk7Cn0pOwoKY29uc29sZS5sb2coIkhpISIpOwoKc2V0VGltZW91dChmdW5jdGlvbiB0aW1lb3V0KCkgewogICAgY29uc29sZS5sb2coIkNsaWNrIHRoZSBidXR0b24hIik7Cn0sIDUwMDApOwoKY29uc29sZS5sb2coIldlbGNvbWUgdG8gbG91cGUuIik7!!!PGJ1dHRvbj5DbGljayBtZSE8L2J1dHRvbj4%3D)
 [O que é REST? - ALURA](https://cursos.alura.com.br/o-que-e-rest--c119)
