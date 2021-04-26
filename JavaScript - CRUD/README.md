@@ -1,4 +1,4 @@
-# JavaScript - DOM
+# JavaScript - CRUD
 <!-- <div align="center">
   <img src=".readme/Screenshot_1.png" alt="App Notas" width="600">
 </div> -->
