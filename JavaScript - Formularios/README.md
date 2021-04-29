@@ -12,22 +12,22 @@
 ![Badge](https://img.shields.io/badge/-GITHUB-000000?style=for-the-badge&logo=github&logoColor=ffffff)
 
 ## Aprendido durante o Curso / Learned during the Course
-
-## Recomendações
 - Fazer validações no próprio HTML utilizando os atributos ```required``` e ```type```.
 - Usar regras de regex dentro do atributo ```pattern``` para validar o campo de senha.
 - Mandar uma mensagem customizada de erro no balão do navegador.
 
+- Criar funções para validações customizadas do formulário
+- Definir mensagens customizadas para validações fora do HTML
+- Utilizar ```data attributes``` para trabalhar com JavaScript
+- Deixar a função de validação mais genérica para funcionar com qualquer ```input```
+## Recomendações
+
 ## Rodando o Projeto
-1. Rodar o Json Server utilizando o **Yarn** ou **NPX**:
+### Com VSCode
+1. Rodar o arquivo **cadastro.html** com o extensão **Live Server** no VSCode
 
-	**Yarn**
-	```bat
-	yarn json-server --watch db.json
-	```
-	**NPX**
-	```bat
-	npx json-server --watch db.json
-	```
-
-2. Rodar Servidor utilizando o arquivo **lista_cliente.html**
+### Sem VSCode
+1. Adicionar o **Brouser Sync**
+```npm install -g browser-sync```
+2. Rodar o Servidor
+```browser-sync start -s -f . --directory```
