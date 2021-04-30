@@ -20,6 +20,11 @@
 - Definir mensagens customizadas para validações fora do HTML
 - Utilizar ```data attributes``` para trabalhar com JavaScript
 - Deixar a função de validação mais genérica para funcionar com qualquer ```input```
+
+- A instalar e usar o plugin ****Live Server**
+- Como baixar e rodar o ```browser-sync```
+- Como mostrar a mensagem de erro diretamente no HTML
+- Como customizar as mensagens de erro de validação
 ## Recomendações
 
 ## Rodando o Projeto
