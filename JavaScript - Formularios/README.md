@@ -1,7 +1,7 @@
-# JavaScript - Formul·rios
+# JavaScript - Formul√°rios
 
 ## Curso/Course
-[JavaScript na Web: ValidaÁ„o de Formul·rios e HTML5 | Alura](https://cursos.alura.com.br/course/javascript-web-validacao-formularios-html5)
+[JavaScript na Web: Valida√ß√£o de Formul√°rios e HTML5 | Alura](https://cursos.alura.com.br/course/javascript-web-validacao-formularios-html5)
 
 ## Linguagens e Ferramentas/ Languages and Tools
 ![Badge](https://img.shields.io/badge/-HTML-E34F26?style=for-the-badge&logo=html5&logoColor=ffffff)
@@ -12,28 +12,35 @@
 ![Badge](https://img.shields.io/badge/-GITHUB-000000?style=for-the-badge&logo=github&logoColor=ffffff)
 
 ## Aprendido durante o Curso / Learned during the Course
-- Fazer validaÁıes no prÛprio HTML utilizando os atributos ```required``` e ```type```.
+- Fazer valida√ß√µes no pr√≥prio HTML utilizando os atributos ```required``` e ```type```.
 - Usar regras de regex dentro do atributo ```pattern``` para validar o campo de senha.
-- Mandar uma mensagem customizada de erro no bal„o do navegador.
+- Mandar uma mensagem customizada de erro no bal√£o do navegador.
 
-- Criar funÁıes para validaÁıes customizadas do formul·rio
-- Definir mensagens customizadas para validaÁıes fora do HTML
+- Criar fun√ß√µes para valida√ß√µes customizadas do formul√°rio
+- Definir mensagens customizadas para valida√ß√µes fora do HTML
 - Utilizar ```data attributes``` para trabalhar com JavaScript
-- Deixar a funÁ„o de validaÁ„o mais genÈrica para funcionar com qualquer ```input```
+- Deixar a fun√ß√£o de valida√ß√£o mais gen√©rica para funcionar com qualquer ```input```
 
 - A instalar e usar o plugin ****Live Server**
 - Como baixar e rodar o ```browser-sync```
 - Como mostrar a mensagem de erro diretamente no HTML
-- Como customizar as mensagens de erro de validaÁ„o
+- Como customizar as mensagens de erro de valida√ß√£o
 
-- A validar cpf com n˙meros repetidos
-- A matem·tica por tr·s da validaÁ„o de um CPF
-- Recurs„o de funÁ„o
-## RecomendaÁıes
+- A validar cpf com n√∫meros repetidos
+- A matem√°tica por tr√°s da valida√ß√£o de um CPF
+- Recurs√£o de fun√ß√£o
+
+- Outra estrutura de regex para a pr√© valida√ß√£o do CEP
+- Como fazer uma requisi√ß√£o para a API da ViaCEP
+- Preencher outros campos do formul√°rio com a resposta da API da ViaCEP
+
+- Como adicionar m√°scara monet√°ria para o campo de pre√ßo.
+
+## Recomenda√ß√µes
 
 ## Rodando o Projeto
 ### Com VSCode
-1. Rodar o arquivo **cadastro.html** com o extens„o **Live Server** no VSCode
+1. Rodar o arquivo **cadastro.html** com o extens√£o **Live Server** no VSCode
 
 ### Sem VSCode
 1. Adicionar o **Brouser Sync**
